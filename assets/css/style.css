@@ -217,3 +217,16 @@ form#contact-form {
 .form-control textarea {
   height: 100%;
 }
+
+.accessibility {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 3em;
+}
+
+.accessibility div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
