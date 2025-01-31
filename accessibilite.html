@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Tech'n'Tips by La Manu - Accessibilité</title>
+  </head>
+  <body id="accueil">
+    <header>
+      <h1>Tech'n'Tips by La Manu</h1>
+      <form action="" id="search-form">
+        <input type="text" placeholder="Moteur de recherche" id="search" name="search">
+        <button class="pink-btn">Rechercher</button>
+      </form>
+      <nav>
+        <ul>
+          <li><a href="./index.html#accueil">Accueil</a></li>
+          <li><a href="./index.html#tutoriels">Tutoriels</a></li>
+          <li><a href="./index.html#contact">Contact</a></li>
+          <li><a href="./accessibilite.html">Accessibilité</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+        <section class="hero-banner">
+            <div class="overlay"></div>
+            <div class="content-hero">
+              <h2 class="title-hero">
+                Accessibilité
+              </h2>
+            </div>
+        </section>
+        <section>
+            <h3>Déclaration de conformité</h3>
+            <div>
+                <h4>Introduction</h4>
+                <p> 
+                  Cette page n'a pas pour objectif de fournir une aide à la navigation, mais constitue une déclaration de conformité au RGAA 4.1. Elle précise le niveau d'accessibilité global du site, conformément à la réglementation en vigueur. Cette déclaration est une exigence obligatoire pour se conformer au RGAA 4.1.
+                <br><br>
+                  Si vous recherchez des informations sur l’accessibilité et les aménagements spécifiques du site, nous vous invitons à consulter la page d’aide.
+                <br><br>
+                  La déclaration de conformité du site references.modernisation.gouv.fr a été établie le 30 janvier 2024, sur la base des tests réalisés avec la version 4.1 du RGAA.
+                </p>
+            </div>
+            <div>
+                <h4>Identité du déclarant</h4>
+                <p>La Manu</p>
+                <p>80 rue de la Vallée</p>
+                <p>80000 AMIENS</p>
+            </div>
+            <div>
+                <h4>Technologies utilisées sur le site</h4>
+                <p>HTML5, CSS3</p>
+            </div>
+            <div>
+              <h4>Pages du site ayant fait l'objet de la vérification de conformité</h4>
+              <ul>
+                  <li><a href="./index.html#accueil">Page d'accueil</a></li>
+              </ul>  
+            </div>
+            <div>
+              <h4>Liste des écarts à la conformité du niveau AA du RGAA 3</h4>
+              <p>Le contraste entre la couleur du texte et la couleur de son arrière-plan n'est pas suffisamment élevé.</p>
+            </div>
+            <div>
+              <h4>Dérogations</h4>
+              <h5>Droit à la compensation</h5>
+              <p>
+                Selon l’article 11 de la loi de février 2005, toute personne en situation de handicap a droit à une compensation des conséquences de son handicap, indépendamment de son origine, de la nature de sa déficience, de son âge ou de son mode de vie.  
+              <br><br>
+                Ainsi, chaque organisme est tenu de mettre en place les moyens nécessaires pour garantir un accès, dans un délai raisonnable, aux informations et fonctionnalités recherchées par les personnes en situation de handicap, y compris lorsque le contenu bénéficie d’une dérogation. De plus, un moyen de contact accessible (adresse électronique ou formulaire) doit être proposé sur la page d’aide pour permettre aux utilisateurs de demander un contenu alternatif accessible.
+              </p>
+            </div>
+            
+
+        </section>
+    </main>
+    <footer>
+      <div class="footer-content" id="contact">
+        <div class="footer-left">
+          <img src="./assets/img/logo-la-manu.png" alt="Logo La Manu"/>
+          <h4>Menu :</h4>
+          <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#tutoriels">Tutoriels</a></li>
+          </ul>
+        </div>
+        <div class="footer-right">
+          <h4>Contact :</h4>
+          <form action="" id="contact-form">
+            <div class="form-group">
+              <div class="form-control">
+                <label for="">Email :</label>
+                <input type="email" placeholder="Votre Email" />
+              </div>
+              <div class="form-control">
+                <label for="">Objet :</label>
+                <input type="text" placeholder="Votre objet" />
+              </div>
+            </div>
+            <div class="form-group form-control">
+              <label for="">Message :</label>
+              <textarea name="" id="" placeholder="Message ..."></textarea>
+            </div>
+            <div class="form-full-width">
+              <input type="radio" required />
+              <label for="">J'accepte les conditions d'utilisation</label>
+            </div>
+            <button type="submit" class="pink-btn">Envoyer</button>
+          </form>
+        </div>
+      </div>
+      <small>Copyright - La Manu 2024</small>
+    </footer>
+  </body>
+</html>

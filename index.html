@@ -10,11 +10,16 @@
   <body id="accueil">
     <header>
       <h1>Tech'n'Tips by La Manu</h1>
+      <form action="" id="search-form">
+        <input type="text" placeholder="Moteur de recherche" id="search" name="search">
+        <button class="pink-btn">Rechercher</button>
+      </form>
       <nav>
         <ul>
           <li><a href="#accueil">Accueil</a></li>
           <li><a href="#tutoriels">Tutoriels</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="./accessibilite.html">Accessibilité</a></li>
         </ul>
       </nav>
     </header>
@@ -26,7 +31,7 @@
             Apprenez les compétences numériques <span>essentielles !</span>
           </h2>
           <button class="pink-btn">
-            Commencez ici <i class="fa-solid fa-rocket"></i>
+            Commencez ici <i class="fa-solid fa-rocket" aria-hidden="true"></i>
           </button>
         </div>
       </section>
@@ -67,7 +72,7 @@
           <div class="list">
             <article>
               <div class="head-img">
-                <img src="./assets/img/header.png" />
+                <img src="./assets/img/header.png" alt="Doigt qui tend vers un écran avec des lignes de code"/>
               </div>
               <div class="content">
                 <div>
@@ -82,7 +87,7 @@
             </article>
             <article>
               <div class="head-img">
-                <img src="./assets/img/header.png" />
+                <img src="./assets/img/header.png" alt="Doigt qui tend vers un écran avec des lignes de code"/>
               </div>
               <div class="content">
                 <div>
@@ -96,7 +101,7 @@
             </article>
             <article>
               <div class="head-img">
-                <img src="./assets/img/header.png" />
+                <img src="./assets/img/header.png" alt="Doigt qui tend vers un écran avec des lignes de code"/>
               </div>
               <div class="content">
                 <div>
@@ -110,7 +115,7 @@
             </article>
             <article>
               <div class="head-img">
-                <img src="./assets/img/header.png" />
+                <img src="./assets/img/header.png" alt="Doigt qui tend vers un écran avec des lignes de code"/>
               </div>
               <div class="content">
                 <div>
@@ -124,7 +129,7 @@
             </article>
             <article>
               <div class="head-img">
-                <img src="./assets/img/header.png" />
+                <img src="./assets/img/header.png" alt="Doigt qui tend vers un écran avec des lignes de code"/>
               </div>
               <div class="content">
                 <div>
@@ -143,7 +148,7 @@
     <footer>
       <div class="footer-content" id="contact">
         <div class="footer-left">
-          <img src="./assets/img/logo-la-manu.png"/>
+          <img src="./assets/img/logo-la-manu.png" alt="Logo La Manu"/>
           <h3>Menu :</h3>
           <ul>
             <li><a href="#accueil">Accueil</a></li>
@@ -155,21 +160,21 @@
           <form action="" id="contact-form">
             <div class="form-group">
               <div class="form-control">
-                <label for="">Email :</label>
-                <input type="email" placeholder="Votre Email" />
+                <label for="email">Email :</label>
+                <input type="email" placeholder="Votre Email" id="email" name="email" />
               </div>
               <div class="form-control">
-                <label for="">Objet :</label>
-                <input type="text" placeholder="Votre objet" />
+                <label for="object">Objet :</label>
+                <input type="text" placeholder="Votre objet" id="object" name="object"/>
               </div>
             </div>
             <div class="form-group form-control">
-              <label for="">Message :</label>
-              <textarea name="" id="" placeholder="Message ..."></textarea>
+              <label for="message">Message :</label>
+              <textarea name="message" id="message" placeholder="Message ..."></textarea>
             </div>
             <div class="form-full-width">
-              <input type="radio" required />
-              <label for="">J'accepte les conditions d'utilisation</label>
+              <input type="radio" required id="use-conditions" name="use-conditions" />
+              <label for="use-conditions">J'accepte les conditions d'utilisation</label>
             </div>
             <button type="submit" class="pink-btn">Envoyer</button>
           </form>

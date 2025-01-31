@@ -16,6 +16,8 @@ h1 {
 }
 h2,
 h3,
+h4,
+h5,
 p,
 a,
 small,
@@ -95,7 +97,7 @@ div.overlay {
   height: 100%;
   width: 100%;
   z-index: 1;
-  background: linear-gradient(90deg, #33058d40 30%, #e1009840 70%);
+  background: linear-gradient(90deg, #33058d40 0%, #e1009840 70%);
 }
 .content-hero {
   z-index: 99;
